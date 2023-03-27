@@ -1,25 +1,21 @@
-
 {% extends 'base.html'%}
 {% block content %}
 {% load static %}
+
 <link rel="stylesheet" href="static/css/themify-icons.css">
 <link rel="stylesheet" href="static/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="static/css/gijgo.css">
 
 
-<link rel="stylesheet" href="static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
     <link rel="stylesheet" href="static/css/slicknav.css">
     <link rel="stylesheet" href="static/css/flaticon.css">
     <link rel="stylesheet" href="static/css/progressbar_barfiller.css">
-    <link rel="stylesheet" href="static/css/gijgo.css">
     <link rel="stylesheet" href="static/css/animate.min.css">
     <link rel="stylesheet" href="static/css/animated-headline.css">
     <link rel="stylesheet" href="static/css/magnific-popup.css">
-    <link rel="stylesheet" href="static/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="static/css/themify-icons.css">
     <link rel="stylesheet" href="static/css/slick.css">
     <link rel="stylesheet" href="static/css/nice-select.css">
-    <link rel="stylesheet" href="static/css/style.css">
+    
 <style>
     .video-area .video-icon a i {
     font-size: 20px;
@@ -29,7 +25,13 @@
     right: -2px;
     top: 2px;
     color: #F4C839;
-}
+    }
+    .slider-bg1{
+        background-image:url(static/images/kajetan-sumila.jpg)
+    }
+    .header-sticky{background:rgba(0, 0, 0, 0.5)}
+    .img-cap{position:absolute;bottom:-7px;left:-33px;width:197px;height:180px;padding:31px 10px;background:#f4c839;text-align:center}
+    .img-cap p{color:#000;font-size:14px;font-weight:600;line-height:1.5}
 </style>
 
 <section class="slider-area ">
@@ -206,7 +208,7 @@
 <!--? Visit Our Tailor Start -->
 <div class="visit-tailor-area fix">
 <!--Right Contents  -->
-<div class="tailor-offers"></div>
+<div class="tailor-offers" style="background-image: url(static/images/photo4.avif);"></div>
 <!-- left Contents -->
 <div class="tailor-details">
     <h2>Recent projects</h2>
